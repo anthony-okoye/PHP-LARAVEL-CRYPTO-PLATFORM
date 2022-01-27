@@ -38,3 +38,17 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+
+## Installation
+
+1.Rename .env.example file to .env inside your project root and fill the database information. (windows wont let you do it, so you have to open your console cd your project root directory and run mv .env.example .env )
+
+2.Open db folder on root directory and import fundstar.sql into your database
+
+3.Open the console and cd your project root directory
+
+4.Run php artisan key:generate
+
+5.Run php artisan config:cache
+
+6.Run php artisan serve 
