@@ -52,3 +52,12 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 5.Run php artisan config:cache
 
 6.Run php artisan serve 
+
+## Login Credentials
+## Admin
+email: admin@demo.com
+password: 123456
+
+## User
+email: test@gmail.com
+password: 123456
