@@ -41,6 +41,17 @@
         @if(get_option('additional_css'))
             <style type="text/css">
                 {{ get_option('additional_css') }}
+                .message {
+                  position: fixed;
+                  top: 10px;
+                  right: 10px;
+                  background-color: #ff0000;
+                  color: #ffffff;
+                  padding: 10px;
+                  border-radius: 5px;
+                  display: none;
+                  z-index: 9999;
+                }
             </style>
             @endif
                 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
