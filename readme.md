@@ -53,6 +53,14 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 6.Run php artisan serve 
 
+## If you experience a problem such 
+SQLSTATE[HY000]: General error: 1813 Tablespace for table '`getfund`.`migrations` or
+Illuminate\Database\QueryException
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'getfund.categories' doesn't exist
+## Run php artisan cache:clear and php artisan config:clear
+
+## Ensure that your own api keys are set in the environment variables USER_INTEL_AUTH_TOKEN, PANGEA_DOMAIN, and NOW_PAYMENTS_KEY. 
+
 ## Login Credentials
 ## Admin
 email: admin@demo.com
